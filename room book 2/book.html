@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>room booking</title>
+        <link rel="stylesheet" href="style2.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    </head>
+    <body>
+        
+        <div class="container">
+            <form class="form-group">
+                <div id="form">
+                    <h1 class="text-white text-center">BOOK ROOM</h1>
+                    
+                    <div id="first-group">
+                        <div id="content">
+                            <i class="fa fa-calendar" aria-hidden="true"></i>
+                            <label for="input-group"></label>
+                        <input placeholder="check-in-date" type="text" onfocus="(this.type='date')" id="input-group" required>
+                        </div>
+
+                        <div id="content">
+                            <i class="fa fa-calendar" aria-hidden="true"></i>
+                            <label for="input-group"></label>
+                        <input placeholder="check-out-date" type="text" onfocus="(this.type='date')" id="input-group" required>
+                        </div>
+
+                        <div id="content">
+                            <i class="fa fa-users" aria-hidden="true"></i>
+                        <select id="input-group" style="background-color: black;">
+                            <option value=""><h1>No.Of Guests</h1></option>
+                            <option value="">1-6</option>
+                            <option value="">6-10</option>
+                            <option value="">11-20</option>
+                         </select>   
+                        </div>
+                        
+                    </div>
+                  
+                    <div>
+                        <input type="submit" class="button" value="BOOK NOW" required>
+                    </div>
+                </div>
+            </form>
+            
+                
+
+        </div>  
+      </body>
+</html>
